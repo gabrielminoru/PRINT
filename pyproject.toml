@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mino-print"
+version = "0.1.0"
+description = "PRINT"
+authors = ["minoru <gabrielikenaga@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "PRINT"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyfiglet = "^1.0.2"
+colorama = "^0.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
